@@ -6,6 +6,7 @@
 
 <script>
 import { onMounted, ref } from 'vue';
+import { Loader } from "@googlemaps/js-api-loader"
 
 const loader = new Loader({
   apiKey: googlemapsapikey,
@@ -14,7 +15,6 @@ const loader = new Loader({
 });
 
 export default {
-  name: 'GoogleMapLoader',
   setup() {
     const map = ref(null);
     let markers = []; // Array to store marker objects
