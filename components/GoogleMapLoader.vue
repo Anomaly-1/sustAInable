@@ -15,7 +15,7 @@ const loader = new Loader({
 });
 
 export default {
-  name: 'GoogleMap',
+  name: 'GoogleMapLoader',
   setup() {
     const map = ref(null);
     let markers = []; // Array to store marker objects
