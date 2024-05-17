@@ -6,7 +6,8 @@
 
 <script>
 import { onMounted, ref } from 'vue';
-import {Loader} from '@googlemaps/js-api-loader';
+import pkg from '@googlemaps/js-api-loader';
+const { Loader } = pkg; 
 
 const loader = new Loader({
   apiKey: googlemapsapikey,
