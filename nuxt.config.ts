@@ -6,5 +6,8 @@ export default defineNuxtConfig({
       googlemapsapikey : JSON.stringify(process.env.GOOGLEMAPS_API_KEY),
       googlegeminiproapikey : JSON.stringify(process.env.GOOGLEGEMINIPRO_API_KEY)
     }
+  },
+  build: {
+    transpile: ['@googlemaps/js-api-loader']
   }
 })
