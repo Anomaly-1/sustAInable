@@ -42,6 +42,8 @@ To use the Recycling App, follow these steps:
 - Vue.js: Frontend framework for building the user interface.
 - Google Maps API: Integration for displaying maps and finding nearby locations.
 - Gemini Vision Pro API: Library for image recognition and classification.
+^Outdated
+
 
 (Requires API Keys respectively in a .env file)
 
